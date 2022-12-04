@@ -14,10 +14,6 @@ class OrderSummaryPage extends BasePage {
         return cy.get('h1');
     }
 
-    getSubTitle() {
-        return cy.get('h1');
-    }
-
     clickOnPlaceYourOrderAndPayButton() {
         cy.log(`**Click on Place your order and pay button**`);
         this.getPlaceYourOrderAndPayButton().click();
